@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Market</title>
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
 
 </head>
 
 <body>
     <header>
         <nav
-            class="flex justify-between items-center pt-[13px]  md:pt-[60px] mx-auto mb-[28px]  w-[91.85%]   md:w-[80%]  md:mb-[120px]">
+            class="flex justify-between items-center   md:pt-[60px] mx-auto mb-[28px]  w-[91.85%]   md:w-[80%]  md:mb-[120px]">
             <img src="assets/logo.png" alt="Flower Market Logo" class="w-[63px] md:w-[135px] h-auto">
-            <ul class="flex items-center gap-12 md:max-w-[415px]">
+            <ul class="flex items-center gap-12 ">
                 <li class="hidden sm:block"><a href="index.html" class="font-bold text-[#252432]">Home</a></li>
                 <li class="hidden sm:block"><a href="index.html" class="text-[#8D87A1]">Shop</a></li>
                 <li class="hidden sm:block"><a href="index.html" class="text-[#8D87A1]">About us</a></li>
@@ -25,8 +27,12 @@
 
 
         </nav>
-        <div class="banner">
-
+        <div class="flex flex-col-reverse md:flex-row items-center justify-center w-[91.85%] md:w-[80%] mx-auto md:mb-[120px]">
+            <div class="flex flex-col items-start  md:items-start md:w-[50%] mx-auto md:mt-[162px] mt-7 mb-7 md:mb-0">
+                <h2 class="font-noto font-bold md:text-[65px]">ALWAYS <span class="primary-color">FRESH </span><br><span class="primary-color">FLOWERS</span></h2>
+                <p class="font-inter text-primary">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <img src="assets/hero-flower.png" alt=" Hero Flower Image" class="w-full md:w-1/2 h-auto mt-[20px] md:mt-[106px]">
         </div>
 
     </header>

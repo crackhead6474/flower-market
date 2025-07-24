@@ -1,0 +1,17 @@
+
+/* @import "tailwindcss"; 
+ */
+
+/* shared styles */
+ .font-noto{
+            font-family: 'Noto Serif', serif;
+        }
+.primary-color {
+    color:#E95A08; /* Example primary color */
+}
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+.text-primary {
+    color: rgba(0, 0, 0, 0.5) /* Example primary text color */
+}
