@@ -43,9 +43,10 @@
         </div>
     </header>
     <!-- main section -->
-    <main>
+    <main class="">
         <!-- plants section -->
         <section class="mb-[41.5px] md:mb-[210.15px] ">
+            <!-- Our plants section -->
             <div class="text-center px-6 md:px-0">
                 <h2 class="font-noto font-bold text-2xl md:text-[50px]">
                     <span class="primary-color">Our</span> Plants
@@ -55,9 +56,9 @@
                     exotic blooms, we offer a wide variety of fresh.
                 </p>
             </div>
-
+            <!-- Plants Grid -->
             <div class="mt-7 md:mt-12 grid grid-cols-2 sm:grid-cols-4 gap-x-2 gap-y-7 w-[91.85%] md:w-[80%] mx-auto">
-
+                <!-- Plants -->
                 <div class="flex flex-col items-center justify-center gap-5">
                     <img src="assets/sample-flower-image.png" alt="Sample Flower" class="w-full max-w-[270px]">
                     <div class="text-center">
@@ -147,9 +148,9 @@
                         ADD TO CART
                     </button>
                 </div>
-
-
+            </div>
         </section>
+
         <!-- Flower & Plants Lover Section -->
         <section class="mt-5 mb-10 md:mb-[120px] main-bg">
             <div
@@ -184,7 +185,7 @@
                     and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety
                     of fresh.</p>
             </div>
-            <section class="max-w-[91.85%] md:max-w-[80%] mx-auto mt-7 md:mt-[120px] max-h-[424px] main-bg">
+            <div class="max-w-[91.85%] md:max-w-[80%] mx-auto mt-7 md:mt-[120px]  main-bg">
                 <div
                     class="flex flex-col md:grid md:grid-cols-2 gap-y-6 md:gap-4 w-full max-w-6xl mx-auto pt-[51.5px] px-4 md:px-0">
                     <div class="flex flex-col gap-y-6 md:grid md:grid-rows-2">
@@ -206,15 +207,30 @@
                             Now</p>
                     </div>
                 </div>
-            </section>
+            </div>
         </section>
 
 
     </main>
 
     <!-- Footer -->
+    <footer class=" pt-10 pb-10">
+        <!-- Join Section -->
+        <div
+            class="bg-[url(/flower-market/assets/news-letter-bg.png)] bg-cover bg-center bg-no-repeat  flex flex-col items-center justify-center min-h-72 gap-6 max-h-[533px] w-full px-4">
+            <h2 class="font-noto font-bold text-xl text-white md:text-[50px] text-center mb-4">Join the colorful Bunch
+            </h2>
+            <div class="flex  w-full max-w-[82%] md:max-w-[830px] gap-0 sm:gap-0">
+                <input type="email" name="email" id="email" placeholder="Write email"
+                    class="px-4 py-2 w-full text-[rgba(0, 0, 0, 0.4)] border-0 focus:outline-none focus:ring-2 focus:ring-[#E95A08]">
+                <button
+                    class="bg-[#E95A08] text-white px-6 h-[50px] sm:h-[54px] font-semibold hover:bg-[#d14f07] transition-colors whitespace-nowrap min-w-[103px] w-[33%] sm:w-auto flex items-center justify-center">Subscribe</button>
+            </div>
+        </div>
 
     </footer>
+
+
 
 </body>
 
